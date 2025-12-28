@@ -165,9 +165,6 @@
   .m-auto {
     margin: auto;
   }
-  .my-\[40px\] {
-    margin-block: 40px;
-  }
   .my-\[80px\] {
     margin-block: 80px;
   }
@@ -316,8 +313,14 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-30 {
     padding-block: calc(var(--spacing) * 30);
+  }
+  .py-40 {
+    padding-block: calc(var(--spacing) * 40);
   }
   .text-center {
     text-align: center;
@@ -336,6 +339,9 @@
   }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[50px\] {
+    font-size: 50px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
