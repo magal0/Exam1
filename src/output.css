@@ -183,17 +183,29 @@
   .table {
     display: table;
   }
+  .w-\[4\] {
+    width: 4;
+  }
   .w-\[45\%\] {
     width: 45%;
   }
   .w-\[48\%\] {
     width: 48%;
   }
+  .w-\[48\] {
+    width: 48;
+  }
+  .w-\[49\%\] {
+    width: 49%;
+  }
   .w-\[50\%\] {
     width: 50%;
   }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-\[100\%\] {
+    width: 100%;
   }
   .w-full {
     width: 100%;
@@ -240,6 +252,9 @@
   .rounded-\[10px\] {
     border-radius: 10px;
   }
+  .rounded-\[12px\] {
+    border-radius: 12px;
+  }
   .rounded-\[14px\] {
     border-radius: 14px;
   }
@@ -256,6 +271,14 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-\[1px\] {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-y-\[2px\] {
     border-block-style: var(--tw-border-style);
     border-block-width: 2px;
@@ -264,9 +287,25 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
+  .border-dashed {
+    --tw-border-style: dashed;
+    border-style: dashed;
+  }
   .border-none {
     --tw-border-style: none;
     border-style: none;
+  }
+  .border-\[da\] {
+    border-color: da;
+  }
+  .border-\[dashed\] {
+    border-color: dashed;
+  }
+  .border-\[g\] {
+    border-color: g;
+  }
+  .border-\[gray\] {
+    border-color: gray;
   }
   .border-y-\[\#0A84FF\] {
     border-block-color: #0A84FF;
@@ -288,6 +327,12 @@
   }
   .bg-\[\#191919\] {
     background-color: #191919;
+  }
+  .bg-\[\#FFFFFF0D\] {
+    background-color: #FFFFFF0D;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -313,9 +358,6 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
-  .py-20 {
-    padding-block: calc(var(--spacing) * 20);
-  }
   .py-30 {
     padding-block: calc(var(--spacing) * 30);
   }
@@ -327,6 +369,9 @@
   }
   .text-start {
     text-align: start;
+  }
+  .text-\[4px\] {
+    font-size: 4px;
   }
   .text-\[16px\] {
     font-size: 16px;
@@ -346,6 +391,18 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[1\] {
+    color: 1;
+  }
+  .text-\[3p\] {
+    color: 3p;
+  }
+  .text-\[g\] {
+    color: g;
+  }
+  .text-\[gray\] {
+    color: gray;
   }
   .text-\[white\] {
     color: white;
