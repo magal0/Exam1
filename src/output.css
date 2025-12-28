@@ -180,14 +180,26 @@
   .table {
     display: table;
   }
+  .w-\[4\] {
+    width: 4;
+  }
   .w-\[45\%\] {
     width: 45%;
+  }
+  .w-\[45\] {
+    width: 45;
+  }
+  .w-\[48\%\] {
+    width: 48%;
   }
   .w-\[50\%\] {
     width: 50%;
   }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
@@ -213,6 +225,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -222,6 +237,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-15 {
+    gap: calc(var(--spacing) * 15);
+  }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
@@ -230,6 +248,9 @@
   }
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+  .rounded-\[14px\] {
+    border-radius: 14px;
   }
   .rounded-\[36px\] {
     border-radius: 36px;
@@ -261,6 +282,9 @@
   }
   .bg-\[\#0A84FF\] {
     background-color: #0A84FF;
+  }
+  .bg-\[\#1A1A1A\] {
+    background-color: #1A1A1A;
   }
   .bg-\[\#1E1E1E\] {
     background-color: #1E1E1E;
