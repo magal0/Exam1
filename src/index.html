@@ -17,15 +17,15 @@
 <body>
     <div class="max-w-300 p-5 m-auto flex items-center justify-between">
         <img src="./Logo (8).png" alt="">
-        <div class="flex gap-5">
+        <div class="hidden lg:flex gap-5">
             <a href="./index.html">Home</a>
             <a href="./index2.html">Services</a>
             <a href="./index3.html">Career</a>
         </div>
         <a href="./index5.html" class="bg-[#0A84FF] py-2 px-5 rounded-[10px]">Contact Us</a>
     </div>
-    <div class="max-w-300 p-5 m-auto flex items-center">
-        <div class="flex flex-col items-start gap-5 w-[50%]">
+    <div class="max-w-300 p-5 m-auto flex flex-col items-center lg:flex-row">
+        <div class="flex flex-col items-start gap-5 w-[100%] lg:[50%]">
             <h1 class="text-[40px] font-bold">Transforming Data into  <h1 class="text-[40px] font-bold bg-[#0A84FF] rounded-[5px]"> Decisions</h1></h1>
             <p>Leverage the power of machine learning and AI to unlock insights and drive business growth</p>
             <button class="bg-[#0A84FF] py-2 px-5 rounded-[10px]">Book a Meeting</button>
@@ -34,9 +34,9 @@
                 <p>Over 100+ clients have worked with us</p>
             </div>
         </div>
-        <img class="w-[60%]" src="./robot area.png" alt="">
+        <img class="w-[100%] lg:w-[100%]" src="./robot area.png" alt="">
     </div>
-    <div class="max-w-300 p-5 m-auto flex justify-between border-y-[2px] border-y-[#0A84FF] py-10">
+    <div class="max-w-300 p-5 m-auto flex flex-col gap-5 ite justify-between border-y-[2px] border-y-[#0A84FF] py-10 lg:flex-row">
         <img src="./Logo (9).png" alt="">
         <img src="./Logo (10).png" alt="">
         <img src="./Logo (11).png" alt="">
@@ -46,7 +46,7 @@
     </div>
     <div class="max-w-300 m-auto p-5 flex flex-col gap-20 items-center text-center py-30">
         <h1 class="text-[30px] font-bold">Our Ultimate Set of Services for Your <br> Ideas Implementation</h1>
-        <div class="flex gap-10">
+        <div class="flex flex-col gap-10 lg:flex-row">
             <div class="bg-[#141414]  p-5 rounded-[36px] flex flex-col gap-5 items-center text-center py-10">
                 <img src="./72355892508 1.png" alt="">
                 <h1 class="text-[20px] font-bold">Predictive Analytics</h1>
@@ -67,13 +67,13 @@
     <div class="max-w-300 p-5 m-auto flex flex-col items-center gap-20">
         <h1 class="text-[30px] font-bold">Frequently Asked Questions</h1>
         <div class="flex flex-col gap-5">
-            <div class=" bg-[#1E1E1E] rounded-[36px] items-center py-10 px-20 text-center">
+            <div class=" bg-[#1E1E1E] rounded-[36px] items-center py-10 px-20 text-center w-[100%] lg:w-200">
                 <div class="flex items-center gap-10">
                     <img src="./Container.png" alt="">
                     <p style="color: #0A84FF;">What services does Catalyst Analytics provide?</p>
-                    <img class="ml-[100px]" src="./Icon (8).png" alt="">
+                    <img class="hidden lg:block" src="./Icon (8).png" alt="">
                 </div>
-                <p class="ml-[120px] text-start">Catalyst Analytics offers a range of services including design, engineering, <br> and project management. We specialize in user experience design, web <br> development, mobile app development, custom software development, <br> branding and identity, and more.</p>
+                <p class=" text-start hidden lg:block">Catalyst Analytics offers a range of services including design, engineering, <br> and project management. We specialize in user experience design, web <br> development, mobile app development, custom software development, <br> branding and identity, and more.</p>
             </div>
             <div class="bg-[#141414] flex px-15 rounded-[36px] py-8 items-center justify-between">
                 <img src="./Container (1).png" alt="">
@@ -98,18 +98,18 @@
         </div>
     </div>
     <footer class="max-w-300 p-5 m-auto border-t-[1px] border-t-[white] mt-[80px]">
-        <div class="flex justify-between items-center">
-            <img src="./Logo (8).png" alt="">
-            <div class="flex gap-5">
+        <div class="flex flex-col justify-between items-start gap-5 lg:flex-row">
+            <img class="items-center" src="./Logo (8).png" alt="">
+            <div class="hidden lg:flex gap-5">
                 <p>Home</p>
                 <p>Services</p>
                 <p>Portfolio</p>
                 <p>About Us</p>
                 <p>Careers</p>
             </div>
-            <img src="./Buttons Container.png" alt="">
+            <img class="" src="./Buttons Container.png" alt="">
         </div>
-        <div class="flex justify-between py-10">
+        <div class="flex flex-col justify-between  py-10 lg:flex-row gap-2">
             <p class="flex items-center gap-2"><img src="./Icon (9).png" alt="">contact@catalystanalytics.io</p>
             <p class="flex items-center gap-2"><img src="./Icon (10).png" alt="">+1 (469) 712-4672 </p>
             <p class="flex items-center gap-2"><img src="./Icon (11).png" alt="">5511 Parkcrest Dr, Suite 103, Austin, TX 78731</p>
